@@ -1,0 +1,472 @@
+@font-face {
+  font-family: SourceSansBlack;
+  src: url("fonts/SourceSans3-Black.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: SourceSansBold;
+  src: url("fonts/SourceSans3-Bold.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: SourceSansExtraBold;
+  src: url("fonts/SourceSans3-ExtraBold.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: SourceSansExtraLight;
+  src: url("fonts/SourceSans3-ExtraLight.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: SourceSansLight;
+  src: url("fonts/SourceSans3-Light.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: SourceSansMedium;
+  src: url("fonts/SourceSans3-Medium.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: SourceSansRegular;
+  src: url("fonts/SourceSans3-Regular.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: SourceSansSemiBold;
+  src: url("fonts/SourceSans3-SemiBold.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: SourceSansItalic;
+  src: url("fonts/SourceSans3-Italic.ttf") format("truetype");
+}
+
+nav {
+  position: absolute;
+  top: 35px;
+  left: 0;
+  right: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 165px;
+}
+
+nav ul {
+  display: flex;
+  gap: 52px;
+}
+
+nav ul li {
+  list-style: none;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #ffffff;
+  font-family: SourceSansBold;
+  font-size: 12px;
+}
+
+.main_part {
+  background-image: url("images/Object.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 1093px;
+  display: flex;
+  flex-direction: column;
+  padding: 98px 165px;
+}
+
+.content_titles {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.content_titles h1 {
+  font-family: SourceSansBold;
+  font-size: 120px;
+  color: #ffffff;
+  line-height: 120px;
+}
+
+.content_titles button {
+  border: none;
+  background-color: #c271ff;
+  color: #fff;
+  font-family: SourceSansSemiBold;
+  font-size: 14px;
+  width: 162px;
+  min-height: 44px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 22px;
+  box-shadow: 0px 2px 20px 0px rgba(0, 0, 0, 0.5);
+  margin-top: 38px;
+  cursor: pointer;
+}
+
+.content_pros {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 87px;
+}
+
+.content_pros h2 {
+  font-family: SourceSansExtraLight;
+  font-size: 32px;
+  color: #d9d9d9;
+}
+
+.content_pros h2 span {
+  font-family: SourceSansBold;
+  font-size: 32px;
+  color: rgba(194, 113, 255, 1);
+}
+
+.team_pros {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.team_pro {
+  max-width: 150px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+.team_pro h3 {
+  font-family: SourceSansBlack;
+  font-size: 18px;
+  color: #ffffff;
+}
+
+.team_pro p {
+  text-align: center;
+  font-family: SourceSansItalic;
+  font-size: 16px;
+  color: #ffffff;
+}
+
+.team_pros img {
+  border-radius: 100%;
+}
+
+.slogan {
+  display: flex;
+  gap: 57px;
+}
+
+.slogan span {
+  font-family: SourceSansBold;
+  font-size: 16px;
+  color: #ffffff;
+}
+
+.testemonials {
+  display: flex;
+  height: 100%;
+  max-height: 392px;
+  background-color: #c271ff;
+  align-items: center;
+  justify-content: center;
+  gap: 53px;
+}
+
+.testemonials_content {
+  max-width: 730px;
+}
+
+.testemonials_content blockquote {
+  font-family: SourceSansRegular;
+  font-size: 22px;
+  color: #ffffff;
+  margin-bottom: 22px;
+}
+
+.testemonials_content h3 {
+  font-family: SourceSansBold;
+  font-size: 22px;
+  color: #ffffff;
+}
+
+.testemonials_content p {
+  font-family: SourceSansItalic;
+  font-size: 22px;
+  color: #ffffff;
+}
+
+.tutorials_container {
+  display: flex;
+  flex-direction: column;
+  padding: 87px 165px;
+  gap: 75px;
+  align-items: center;
+}
+
+.tutorials_container h2 {
+  font-family: SourceSansExtraLight;
+  font-size: 32px;
+  color: #000000;
+}
+
+.tutorials_container h2 span {
+  font-family: SourceSansBold;
+  font-size: 32px;
+  color: rgba(194, 113, 255, 1);
+}
+
+.all_tutorials {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  gap: 30px;
+}
+
+.avatar {
+  display: flex;
+  align-items: center;
+  gap: 13px;
+  padding: 0 13px;
+}
+
+.avatar img {
+  width: 30px;
+  height: 30px;
+}
+
+.avatar h4 {
+  font-size: 14px;
+  color: #c271ff;
+  font-family: SourceSansSemiBold;
+}
+
+.rating {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 13px;
+}
+
+.rating p {
+  color: #c271ff;
+  font-family: SourceSansSemiBold;
+  font-size: 14px;
+}
+
+.fa-star {
+  color: #c271ff;
+}
+
+.fa-star:last-child {
+  color: rgba(216, 216, 216, 1);
+}
+
+.video_card {
+  width: 100%;
+  max-width: 255px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  position: relative;
+}
+
+.video_card::before {
+  content: "";
+  width: 64px;
+  height: 64px;
+  background-image: url("images/play.png");
+  position: absolute;
+  top: 45px;
+  left: 50%;
+  transform: translateX(-50%);
+  cursor: pointer;
+}
+
+.video-content {
+  padding: 0 13px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.video-content h3 {
+  color: #000000;
+  font-family: SourceSansBold;
+  font-size: 16px;
+}
+
+.video-content p {
+  font-family: SourceSansRegular;
+  font-size: 14px;
+  color: rgba(7, 22, 41, 0.5016);
+}
+
+footer {
+  height: 249px;
+  background-color: rgba(7, 22, 41, 1);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  padding: 0 165px;
+}
+
+footer p {
+  position: absolute;
+  bottom: 39px;
+  left: 50%;
+  transform: translateX(-50%);
+  color: #ffffff;
+  opacity: 0.35;
+  font-family: SourceSansRegular;
+  font-size: 12px;
+}
+
+.footer_links {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.links {
+  display: flex;
+  gap: 20px;
+}
+
+.links i {
+  width: 30px;
+  height: 30px;
+  background-color: #ffffff;
+  border-radius: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.faq_container {
+  display: flex;
+  flex-direction: column;
+  padding: 67px 0;
+  gap: 74px;
+  align-items: center;
+  justify-content: center;
+}
+
+.faq_container h2 {
+  font-family: SourceSansLight;
+  font-size: 60px;
+  color: rgba(7, 22, 41, 1);
+}
+
+.faq_content {
+  display: flex;
+  gap: 220px;
+}
+
+.faq_content_left,
+.faq_content_right {
+  display: flex;
+  flex-direction: column;
+  gap: 74px;
+  max-width: 350px;
+}
+
+.faq_content_left div,
+.faq_content_right div {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.faq_content_left p,
+.faq_content_right p {
+  color: rgba(7, 22, 41, 0.5016);
+  font-family: SourceSansRegular;
+  font-size: 14px;
+}
+
+.faq_content_left h3,
+.faq_content_right h3 {
+  color: rgba(7, 22, 41, 1);
+  font-family: SourceSansBold;
+  font-size: 16px;
+}
+
+.membership_container {
+  height: 502;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  background-color: rgba(7, 22, 41, 1);
+  padding: 98px 165px;
+  gap: 58px;
+}
+
+.membership_container button {
+  border: none;
+  background-color: #c271ff;
+  color: #fff;
+  font-family: SourceSansSemiBold;
+  font-size: 14px;
+  width: 162px;
+  min-height: 44px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 22px;
+  box-shadow: 0px 2px 20px 0px rgba(0, 0, 0, 0.5);
+  cursor: pointer;
+}
+
+.membership_container h2 {
+  font-family: SourceSansBold;
+  font-size: 32px;
+  color: #ffffff;
+}
+
+.membership_container h2 span {
+  font-family: SourceSansBold;
+  font-size: 32px;
+  color: #c271ff;
+}
+
+.membership_content {
+  width: 100%;
+  display: flex;
+  gap: 28px;
+}
+
+.membership_card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 26px;
+  max-width: 257px;
+}
+
+.membership_card h3 {
+  font-family: SourceSansSemiBold;
+  color: #ffffff;
+  font-size: 18px;
+}
+
+.membership_card p {
+  font-family: SourceSansSemiRegular;
+  font-size: 14px;
+  color: #ffffff;
+}
