@@ -1,7 +1,136 @@
+@font-face {
+    font-family: SourceSansPro-Black.otf;
+    src: url("../headphones/fonts/source-sans-pro/SourceSansPro-Black.otf") format("truetype");
+}
+
+@font-face {
+    font-family: SourceSansPro-Blacklt.otf;
+    src: url("../headphones/fonts/source-sans-pro/SourceSansPro-Blacklt.otf") format("truetype");
+}
+
+@font-face {
+    font-family: SourceSansPro-Bold.otf;
+    src: url("../headphones/fonts/source-sans-pro/SourceSansPro-Bold.otf") format("truetype");
+}
+
+@font-face {
+    font-family: SourceSansPro-Boldlt.otf;
+    src: url("../headphones/fonts/source-sans-pro/SourceSansPro-Boldlt.otf") format("truetype");
+}
+
+@font-face {
+    font-family: SourceSansPro-ExtraLight.otf;
+    src: url("../headphones/fonts/source-sans-pro/SourceSansPro-ExtraLightlt.otf") format("truetype");
+}
+
+@font-face {
+    font-family: SourceSansPro-lt.otf;
+    src: url("../headphones/fonts/source-sans-pro/SourceSansPro-lt.otf") format("truetype");
+}
+
+@font-face {
+    font-family: SourceSansPro-Light.otf;
+    src: url("../headphones/fonts/source-sans-pro/SourceSansPro-Light.otf") format("truetype");
+}
+
+@font-face {
+    font-family: SourceSansPro-Lightlt.otf;
+    src: url("../headphones/fonts/source-sans-pro/SourceSansPro-Lightlt.otf") format("truetype");
+}
+
+@font-face {
+    font-family: SourceSansPro-Regular.otf;
+    src: url("../headphones/fonts/source-sans-pro/SourceSansPro-Regular.otf") format("truetype");
+}
+
+@font-face {
+    font-family: SourceSansPro-Semibold.otf;
+    src: url("../headphones/fonts/source-sans-pro/SourceSansPro-Semibold.otf") format("truetype");
+}
+
+@font-face {
+    font-family: SourceSansPro-Semiboldlt.otf;
+    src: url("../headphones/fonts/source-sans-pro/SourceSansPro-Semiboldlt.otf") format("truetype");
+}
+
+@font-face {
+    font-family: SourceSansPro-Blacklt.otf;
+    src: url("../headphones/fonts/source-sans-pro/SourceSansPro-Blacklt.otf") format("truetype");
+}
+
+@font-face {
+    font-family: spincycle_3d_ot.otf;
+    src: url("../headphones/fonts/Spin-Cycle-OT/spincycle_3d_ot.otf") format("truetype");
+}
+
+@font-face {
+    font-family: spincycle_ot.otf;
+    src: url("../headphones/fonts/Spin-Cycle-OT/spincycle_ot.otf") format("truetype");
+}
+
+
+
+
 nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
-.first_section {}
+nav ul {
+    display: flex;
+    gap: 41px;
+}
+
+
+
+main .first_section {
+    background-image: url("../headphones/images/headphones_hero_1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 800px;
+    display: flex;
+    flex-direction: column;
+    padding: 372px 381px 115px 382px;
+}
+
+nav ul li {
+    list-style: none;
+}
+
+.first_section {
+    gap: 35px;
+    display: flex;
+    align-items: center;
+}
+
+.first_section h1 {
+    font-family: Source Sans Pro;
+    font-size: 32px;
+    color: #FFFFFF;
+}
+
+.first_section p {
+    font-family: Source Sans Pro;
+    font-size: 16px;
+    color: #FFFFFF;
+
+}
+
+.first_section button {
+    background-color: #FF6565;
+    color: #fff;
+    font-family: SourceSansSemiBold;
+    font-size: 14px;
+    width: 637px;
+    min-height: 44px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 22px;
+    margin-left: 382px;
+    margin-right: 381px;
+    cursor: pointer;
+    box-shadow: 0px 4px 4px 0px #000000 25%
+}
