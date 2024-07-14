@@ -175,10 +175,17 @@ li a {
 @media (width <= 375px) {
   nav {
     top: 29px;
+    flex-direction: column;
+    gap: 20px;
   }
 
   nav ul {
     display: none;
+    flex-direction: column;
+  }
+
+  .show {
+    display: flex;
   }
 
   .first_section {
