@@ -165,117 +165,29 @@ li a {
   outline: none;
 }
 
-.intro {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  gap: 40px;
-  width: 100%;
-  max-width: 637px;
+/* Tablet styling */
+
+@media (width <= 768px) {
 }
 
-.intro p {
-  align-items: center;
-  font-family: SourceSansPro-Regular;
-  font-size: 16px;
-  text-align: center;
-  color: #071629;
-}
+/* Mobile styling */
 
-.intro h1 {
-  font-family: SourceSansPro-Semibold;
-  font-size: 32px;
-  color: #071629;
-}
+@media (width <= 375px) {
+  nav {
+    top: 29px;
+  }
 
-.types {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  gap: 58px;
-  text-align: center;
-}
+  nav ul {
+    display: none;
+  }
 
-.types h1 {
-  font-family: SourceSansPro-Semibold;
-  font-size: 18px;
-  color: #071629;
-  text-align: center;
-}
+  .first_section {
+    background-position-x: -375px;
+    height: 869px;
+  }
 
-.types p {
-  font-family: SourceSansPro-Regular;
-  font-size: 14px;
-  text-align: center;
-}
-
-.Second_section {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  gap: 107px;
-  height: 694px;
-  padding: 0 200px;
-}
-
-.Third_section {
-  background-image: url("../headphones/images/headphones_hero_2.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-  height: 650px;
-  display: flex;
-  flex-direction: column;
-}
-
-.results_section h1 {
-  display: flex;
-  justify-content: center;
-  color: #ffffff;
-}
-
-.results_section p {
-  display: flex;
-  justify-content: center;
-  color: #ffffff;
-  text-align: center;
-}
-
-.dots {
-  display: flex;
-  justify-content: space-between;
-}
-
-footer {
-  background-color: #071629;
-  background-size: cover;
-  height: 249px;
-  justify-content: center;
-  align-items: center;
-  position: relative;
-}
-
-.footer_logo {
-  display: flex;
-  width: 160.96px;
-  height: 31.18px;
-}
-
-.social_media {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  gap: 20px;
-  color: #ffffff;
-  cursor: pointer;
-}
-
-footer p {
-  bottom: 30px;
-  left: 651px;
-  color: #ffffff;
-  text-align: left;
-  font-size: 12px;
+  .first_section_content {
+    margin-bottom: 106px;
+    width: 90%;
+  }
 }
