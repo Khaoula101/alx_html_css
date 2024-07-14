@@ -1,77 +1,82 @@
 @font-face {
-    font-family: SourceSansPro-Black.otf;
-    src: url("../headphones/fonts/source-sans-pro/SourceSansPro-Black.otf") format("truetype");
+    font-family: SourceSansPro-Black;
+    src: url("./fonts/source-sans-pro/SourceSansPro-Black.otf") format('opentype');
+}
+
+
+@font-face {
+    font-family: SourceSansPro-Blacklt;
+    src: url(".fonts/source-sans-pro/SourceSansPro-Blacklt.otf") format("opentype");
 }
 
 @font-face {
-    font-family: SourceSansPro-Blacklt.otf;
-    src: url("../headphones/fonts/source-sans-pro/SourceSansPro-Blacklt.otf") format("truetype");
+    font-family: SourceSansPro-Bold;
+    src: url(".fonts/source-sans-pro/SourceSansPro-Bold.otf") format("opentype");
 }
 
 @font-face {
-    font-family: SourceSansPro-Bold.otf;
-    src: url("../headphones/fonts/source-sans-pro/SourceSansPro-Bold.otf") format("truetype");
+    font-family: SourceSansPro-Boldlt;
+    src: url(".fonts/source-sans-pro/SourceSansPro-Boldlt.otf") format("opentype");
 }
 
 @font-face {
-    font-family: SourceSansPro-Boldlt.otf;
-    src: url("../headphones/fonts/source-sans-pro/SourceSansPro-Boldlt.otf") format("truetype");
+    font-family: SourceSansPro-ExtraLight;
+    src: url(".fonts/source-sans-pro/SourceSansPro-ExtraLightlt.otf") format("opentype");
 }
 
 @font-face {
-    font-family: SourceSansPro-ExtraLight.otf;
-    src: url("../headphones/fonts/source-sans-pro/SourceSansPro-ExtraLightlt.otf") format("truetype");
+    font-family: SourceSansPro-lt;
+    src: url(".fonts/source-sans-pro/SourceSansPro-lt.otf") format("opentype");
 }
 
 @font-face {
-    font-family: SourceSansPro-lt.otf;
-    src: url("../headphones/fonts/source-sans-pro/SourceSansPro-lt.otf") format("truetype");
+    font-family: SourceSansPro-Light;
+    src: url(".fonts/source-sans-pro/SourceSansPro-Light.otf") format("opentype");
 }
 
 @font-face {
-    font-family: SourceSansPro-Light.otf;
-    src: url("../headphones/fonts/source-sans-pro/SourceSansPro-Light.otf") format("truetype");
+    font-family: SourceSansPro-Lightlt;
+    src: url(".fonts/source-sans-pro/SourceSansPro-Lightlt.otf") format("opentype");
 }
 
 @font-face {
-    font-family: SourceSansPro-Lightlt.otf;
-    src: url("../headphones/fonts/source-sans-pro/SourceSansPro-Lightlt.otf") format("truetype");
+    font-family: SourceSansPro-Regular;
+    src: url(".fonts/source-sans-pro/SourceSansPro-Regular.otf") format("opentype");
 }
 
 @font-face {
-    font-family: SourceSansPro-Regular.otf;
-    src: url("../headphones/fonts/source-sans-pro/SourceSansPro-Regular.otf") format("truetype");
+    font-family: SourceSansPro-Semibold;
+    src: url(".fonts/source-sans-pro/SourceSansPro-Semibold.otf") format("opentype");
 }
 
 @font-face {
-    font-family: SourceSansPro-Semibold.otf;
-    src: url("../headphones/fonts/source-sans-pro/SourceSansPro-Semibold.otf") format("truetype");
+    font-family: SourceSansPro-Semiboldlt;
+    src: url(".fonts/source-sans-pro/SourceSansPro-Semiboldlt.otf") format("opentype");
 }
 
 @font-face {
-    font-family: SourceSansPro-Semiboldlt.otf;
-    src: url("../headphones/fonts/source-sans-pro/SourceSansPro-Semiboldlt.otf") format("truetype");
+    font-family: SourceSansPro-Blacklt;
+    src: url(".fonts/source-sans-pro/SourceSansPro-Blacklt.otf") format("opentype");
 }
 
 @font-face {
-    font-family: SourceSansPro-Blacklt.otf;
-    src: url("../headphones/fonts/source-sans-pro/SourceSansPro-Blacklt.otf") format("truetype");
+    font-family: spincycle_3d_ot;
+    src: url(".fonts/Spin-Cycle-OT/spincycle_3d_ot.otf") format("opentype");
 }
 
 @font-face {
-    font-family: spincycle_3d_ot.otf;
-    src: url("../headphones/fonts/Spin-Cycle-OT/spincycle_3d_ot.otf") format("truetype");
-}
-
-@font-face {
-    font-family: spincycle_ot.otf;
-    src: url("../headphones/fonts/Spin-Cycle-OT/spincycle_ot.otf") format("truetype");
+    font-family: spincycle_ot;
+    src: url(".fonts/Spin-Cycle-OT/spincycle_ot.otf") format("opentype");
 }
 
 
 
 
 nav {
+    position: absolute;
+    top: 37px;
+    left: 0;
+    right: 0;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -80,7 +85,17 @@ nav {
 nav ul {
     display: flex;
     gap: 41px;
+    list-style: none;
 }
+
+li {
+    font-family: Source Sans Pro;
+    color: #FFFFFF;
+    font-size: 12px;
+    text-decoration: none;
+
+}
+
 
 
 
@@ -95,9 +110,7 @@ main .first_section {
     padding: 372px 381px 115px 382px;
 }
 
-nav ul li {
-    list-style: none;
-}
+
 
 .first_section {
     gap: 35px;
@@ -115,6 +128,7 @@ nav ul li {
     font-family: Source Sans Pro;
     font-size: 16px;
     color: #FFFFFF;
+    text-align: center;
 
 }
 
@@ -129,8 +143,112 @@ nav ul li {
     align-items: center;
     justify-content: center;
     border-radius: 22px;
-    margin-left: 382px;
-    margin-right: 381px;
     cursor: pointer;
     box-shadow: 0px 4px 4px 0px #000000 25%
+}
+
+.intro {
+    width: 637px;
+    height: 184px;
+
+}
+
+.intro h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+
+}
+
+.intro p {
+    text-align: center;
+    width: 637px;
+    height: 104px;
+    font-size: 16px;
+
+}
+
+.types {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 58px;
+    text-align: center;
+}
+
+.Second_section {
+    gap: 107px;
+}
+
+.Third_section {
+    background-image: url("../headphones/images/headphones_hero_2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 650px;
+    display: flex;
+    flex-direction: column;
+}
+
+.results_section h1 {
+    display: flex;
+    justify-content: center;
+    color: #FFFFFF;
+
+
+}
+
+.results_section p {
+    display: flex;
+    justify-content: center;
+    color: #FFFFFF;
+    text-align: center;
+    width: 637px;
+    height: 104px;
+}
+
+.dots {
+    display: flex;
+    justify-content: space-between;
+}
+
+footer {
+    background-color: #071629;
+    background-size: cover;
+    height: 249px;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.footer_logo {
+    display: flex;
+    width: 160.96px;
+    height: 31.18px;
+}
+
+.social_media {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    color: #FFFFFF;
+    width: 130px;
+    height: 30px;
+    cursor: pointer;
+
+}
+
+.fourth_section h1 {}
+
+
+footer p {
+    bottom: 30px;
+    left: 651px;
+    color: #FFFFFF;
+    text-align: left;
+    font-size: 12px;
+
 }
